@@ -25,6 +25,7 @@ var DayItem = React.createClass({
   fontWeight: function() {
     var weight = 7 - this.props.daysUntil;
     return (weight * 100).toString();
+    // must return a string
     // more bold the higher the number
   },
   fontSize: function() {
